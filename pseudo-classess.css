@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.title::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #f86705;
+    margin: 10px auto 0;
+
+}
+.menu{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px; 
+    border: 2px solid transparent;
+
+}
+.menu li a:hover{
+    border-color: #f86705;
+    border-radius: 10px;
+}
+
+#about{
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+
+}
+#about::before{
+    content:"👌" ;
+}
+.skills{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+
+  
+}
+.skills li{
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddee;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+}
+.skills li:nth-child(odd){
+    background-color: #ffefd5;
+}
+.skills li:nth-child(even){
+    background-color: #b69a96;
+}
+#contact{
+    padding: 20px;
+    text-align: center;
+}
+form{
+    display: inline-block;
+    text-align: center;
+    background-color: #eeecec;
+    padding: 20px;
+    border-radius: 8px;
+}
+.input{
+    display: block;
+    width: 100%;
+    margin:  10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input:focus{
+    border-color: #e65500;
+    outline: none;
+}
+button{
+    background-color: #e65500;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
